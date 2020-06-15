@@ -30,7 +30,6 @@ class Song
   
   def self.genre_count
     @@genres.map do |genre|
-      binding.pry
       if @@genres.include?(genre)
         @@genres[genre] += 1
       else
