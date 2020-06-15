@@ -32,10 +32,9 @@ class Song
     @@genres.map do |genre|
       binding.pry
       if @@genres.include?(genre)
-     
-        
+        @@genres[:genre] += 1
       else
-        
+        @@genres[:genre] = 1
       end 
     end 
   end 
