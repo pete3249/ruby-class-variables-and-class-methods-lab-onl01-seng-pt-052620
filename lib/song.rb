@@ -32,6 +32,7 @@ class Song
     genre_hash = {}
     @@genres.map do |type|
       if @@genres.include?(type)
+        binding.pry
         genre_hash[type] = genre_hash[type] + 1
       else
         genre_hash[type] = 1
