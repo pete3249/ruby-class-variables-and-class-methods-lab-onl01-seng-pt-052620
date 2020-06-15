@@ -6,4 +6,9 @@ class Song
     @@count += 1
   end 
   
+  self.count
+    @@count
+  end
+  
+  
 end 
