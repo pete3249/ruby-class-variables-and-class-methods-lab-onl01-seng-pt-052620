@@ -41,7 +41,10 @@ class Song
   end 
   
   def self.artist_count
-    artist_hast
+    artist_hash = {}
+    @@artists.each do |artist|
+      if arist_hast.include?(artist)
+        artist_
   end 
     
 end 
