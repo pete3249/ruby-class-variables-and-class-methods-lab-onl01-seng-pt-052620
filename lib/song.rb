@@ -44,7 +44,12 @@ class Song
     artist_hash = {}
     @@artists.each do |artist|
       if arist_hash.include?(artist)
-        artist_
+        artist_hash[artist] = artist_hash[type] + 1
+      else 
+        artist_hash[artist] = 1
+      end
+    end 
+    artist_hash
   end 
     
 end 
